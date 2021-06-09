@@ -29,3 +29,9 @@ exports.getProducts = (req, res, next) => {
     });
   });
 };
+
+exports.geteditproduct=(req,res,next)=>{
+  console.log("here edit")
+  res.redirect('/');
+
+}
